@@ -47,6 +47,7 @@
 #define DEFAULT_SUBSCRIPTION_TIMEOUT 60000
 #define DEFAULT_SUBSCRIPTION_LIMIT 1
 #define SUBSCRIPTIONID_SIZE 36
+#define stricmp strcasecmp
 
 template<typename TNetworkClass>
 class Constellation
